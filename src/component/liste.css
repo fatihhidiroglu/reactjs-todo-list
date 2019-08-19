@@ -1,0 +1,9 @@
+.panel-default{
+    margin-left: 20px;
+}
+input[type=text]{
+    padding: 0 5px;
+}
+.table{
+    margin-top: 10px;
+}

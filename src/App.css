@@ -1,0 +1,33 @@
+body{
+    min-height: 92vh;
+    background-image: linear-gradient(120deg,#4b4b4b,#78909c) ;
+}
+.container{
+    margin-top: 50px;
+}
+.panel-default{
+    background-color: #e1e0fe ;
+    border-color: #e1e0fe;
+}
+.panel-body{
+    padding: 5px 0 15px 0;
+}
+.panel-heading{
+    padding: 0;
+    margin: 0 -15px 0 -15px;
+}
+@media (min-width: 1200px){
+    .container{
+        width: 100%;
+    }
+}
+@media (min-width: 992px){
+    .container{
+        width: 100%;
+    }  
+}
+@media (min-width: 768px){
+    .container{
+        width: 100%;
+    }    
+}

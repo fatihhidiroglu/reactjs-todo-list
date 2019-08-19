@@ -1,0 +1,85 @@
+.input-group{
+    margin-bottom: 5px;
+}
+.btn-default{
+    background-color : #218c74 !important;
+    border-color : #218c74 !important;
+    margin : 0 13px;
+    color: #fff;
+    outline: 0 !important;
+    transition-duration: 0.3s;
+    cursor: pointer !important;   
+}
+.btn-default:hover{
+    background-color : #27a58a !important;
+    border-color : #27a58a !important;
+    outline: 0 !important;
+    color: #fff;
+}
+.btn-warning{
+    background-color : #b33939 !important;
+    border-color : #b33939 !important;
+    margin : 0;
+    outline: 0 !important;
+    transition-duration: 0.3s;
+    cursor: pointer !important;
+}
+.btn-warning:hover{
+    background-color : #cf4242 !important;
+    border-color : #cf4242 !important;
+    outline: 0 !important;
+}
+.btn-success, .btn-info, .btn-primary, .btn-danger{
+    width : 100%;
+    margin : 0;
+    outline: 0 !important;
+    transition-duration: 0.3s;
+    cursor: pointer !important;
+}
+.btn-ekle,.btn-sorgula{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-success{
+    background-color : #218c74 !important;
+    border-color : #218c74 !important;
+    transition-duration: 0.3s;    
+}
+.btn-success:hover{
+    background-color : #27a58a !important;
+    border-color : #27a58a !important;
+    outline: 0 !important;
+}
+.btn-danger{
+    background-color : #b33939 !important;
+    border-color : #b33939 !important;
+    transition-duration: 0.3s;
+}
+.btn-danger:hover{
+    background-color : #cf4242 !important;
+    border-color : #cf4242 !important;
+    outline: 0 !important;
+}
+.btn-primary{
+    background-color : #227093 !important;
+    border-color : #227093 !important;
+    transition-duration: 0.3s;
+}
+.btn-primary:hover{
+    background-color : #2883ad !important;
+    border-color : #2883ad !important;
+    outline: 0 !important;
+}
+.btn-info{
+    background-color : #3d3d3d !important;
+    border-color : #3d3d3d !important;
+    transition-duration: 0.3s;
+}
+.btn-info:hover{
+    background-color : #4b4b4b !important;
+    border-color : #4b4b4b !important;
+    outline: 0 !important;
+}
+.btn i{
+    margin-right: 5px;   
+}
