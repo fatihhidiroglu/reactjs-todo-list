@@ -180,7 +180,7 @@ class App extends Component {
   }
   render() {
     if (this.state.findingUser.userName !== "") {
-      let userTodos = this.state.todos.filter(x => x.kid == this.state.findingUser.kid);
+      let userTodos = this.state.todos.filter(x => x.kid === this.state.findingUser.kid);
       return (
         <div className="container">
           <Giris userSearch={this.userSearch} />

@@ -1,0 +1,13 @@
+version: '3'
+services:
+  react:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "3000:3000"
+    container_name: react
+    stdin_open: true
+    volumes:
+      - ./:/usr/src/app/react-todo
+      - /usr/src/app/react-todo/node_modules
