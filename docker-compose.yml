@@ -11,3 +11,30 @@ services:
     volumes:
       - ./:/usr/src/app/react-todo
       - /usr/src/app/react-todo/node_modules
+    
+  nodejs:
+    build:
+      context: .
+      dockerfile: ./api/Dockerfile
+    ports:
+      - "8080:8080"
+    container_name: nodejs
+    volumes:
+      - ./:/usr/src/app/api
+      - /usr/src/app/api/node_modules
+
+  db:
+    image: mysql:5.7.22
+    container_name: mysql
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_USER: root
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: todos-list
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    volumes:
+      - ./mysql/persisted-volume:/var/lib/mysql
